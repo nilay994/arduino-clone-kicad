@@ -1,0 +1,93 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Arduino-Clone"
+Date "2020-06-14"
+Rev "v1.0"
+Comp "SRA"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Battery BT?
+U 1 1 5EE57074
+P 3300 4000
+F 0 "BT?" H 3408 4046 50  0000 L CNN
+F 1 "Battery" H 3408 3955 50  0000 L CNN
+F 2 "" V 3300 4060 50  0001 C CNN
+F 3 "~" V 3300 4060 50  0001 C CNN
+	1    3300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EE573CD
+P 4400 3625
+F 0 "C?" H 4515 3671 50  0000 L CNN
+F 1 "C" H 4515 3580 50  0000 L CNN
+F 2 "" H 4438 3475 50  0001 C CNN
+F 3 "~" H 4400 3625 50  0001 C CNN
+	1    4400 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5EE5773A
+P 4400 4225
+F 0 "C?" H 4518 4271 50  0000 L CNN
+F 1 "CP" H 4518 4180 50  0000 L CNN
+F 2 "" H 4438 4075 50  0001 C CNN
+F 3 "~" H 4400 4225 50  0001 C CNN
+	1    4400 4225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EE57A14
+P 4400 3200
+F 0 "C?" H 4515 3246 50  0000 L CNN
+F 1 "C" H 4515 3155 50  0000 L CNN
+F 2 "" H 4438 3050 50  0001 C CNN
+F 3 "~" H 4400 3200 50  0001 C CNN
+	1    4400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5EE57CDF
+P 5625 3125
+F 0 "D?" H 5618 3342 50  0000 C CNN
+F 1 "LED" H 5618 3251 50  0000 C CNN
+F 2 "" H 5625 3125 50  0001 C CNN
+F 3 "~" H 5625 3125 50  0001 C CNN
+	1    5625 3125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EE581EB
+P 5500 3650
+F 0 "R?" H 5570 3696 50  0000 L CNN
+F 1 "R" H 5570 3605 50  0000 L CNN
+F 2 "" V 5430 3650 50  0001 C CNN
+F 3 "~" H 5500 3650 50  0001 C CNN
+	1    5500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_EEPROM:24LC1025 U?
+U 1 1 5EE58CDC
+P 6700 3600
+F 0 "U?" H 6700 4081 50  0000 C CNN
+F 1 "24LC1025" H 6700 3990 50  0000 C CNN
+F 2 "" H 6700 3600 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf" H 6700 3600 50  0001 C CNN
+	1    6700 3600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
