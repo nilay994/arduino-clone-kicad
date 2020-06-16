@@ -1,7 +1,7 @@
-# This is a copy of the BACEE project by futureshocked: https://github.com/futureshocked/KicadLikeAPro-Project-3-BACEE
+## This is a copy of the BACEE project by futureshocked: https://github.com/futureshocked/KicadLikeAPro-Project-3-BACEE
 
 
-# list of components
+## list of components
 1. battery
 2. pol cap + cer cap
 3. LED
@@ -14,3 +14,6 @@
 10. AtMega 328
 11. Clock
 
+## autorouter
+FreeRouting using java runtime, copy the executable to the project directory.
+https://layouteditor.com/download: could do 2 and 4 layers flawlessly.

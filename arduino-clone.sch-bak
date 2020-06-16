@@ -590,4 +590,8 @@ Wire Notes Line
 	10200 625  10200 4425
 Wire Notes Line
 	10200 4425 6600 4425
+Text Notes 4075 4575 0    50   ~ 0
+I2C Memory
+Text Notes 4025 2850 0    50   ~ 0
+I2C - RTC
 $EndSCHEMATC
