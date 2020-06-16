@@ -1,6 +1,13 @@
 
 # Expt. with KiCad
 
+https://www.udemy.com/course/kicad-like-a-pro-2e
+- installing libraries for symbols and footprints (good source: digikey and Angus's)
+- steps (maybe subject to copyright)
+<img src="https://github.com/nilay994/arduino-clone-kicad/raw/master/schematic-design-workflow.png" width="500">
+<img src="https://github.com/nilay994/arduino-clone-kicad/raw/master/pcb-layout-workflow.png" width="500">
+
+
 ## This is a deep-copy of the BACEE project by futureshocked
 URL: https://github.com/futureshocked/KicadLikeAPro-Project-3-BACEE
 This repository doesn't claim that the schema or pcb designed is functional. The function of these files is purely for experimenting with KiCad.
@@ -18,8 +25,13 @@ This repository doesn't claim that the schema or pcb designed is functional. The
 10. AtMega 328
 11. Clock
 
+## Good practice:
+Use gerblook.org for viewing the individual layers and check outer edgecut dimension.
+Upload gerber to PCBWay to check the prices of 2/4 layer to get an estimate.
+
+
 ## Autorouter
-FreeRouting using java runtime, copy the executable to the project directory.
+`FreeRouting.jar` using java runtime, copy the executable to the project directory.
 https://layouteditor.com/download: could do 2 and 4 layers: no problems passing DRC. 
 
 ## Failure
